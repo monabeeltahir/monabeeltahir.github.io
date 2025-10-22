@@ -140,4 +140,58 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+/* ======= Latest Highlights Styles ======= */
+#highlights .hl-card {
+  background: #f3f6fb;
+  border: 1px solid #e5eaf2;
+  border-radius: 14px;
+  padding: 14px 14px 6px;
+}
+
+#highlights .hl-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #e9edf4;
+  margin: 8px 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+}
+
+#highlights .hl-date {
+  flex: 0 0 auto;
+  font-weight: 700;
+  color: #0d6efd;
+  text-decoration: none;
+  margin-top: 1px;
+}
+
+#highlights .hl-date:hover {
+  text-decoration: underline;
+}
+
+#highlights .hl-text {
+  color: #2b2f36;
+}
+
+#highlights .hl-text a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#highlights .hl-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  #highlights .hl-row {
+    padding: 10px 12px;
+  }
+  #highlights .hl-date {
+    font-size: .95rem;
+  }
+}
 
