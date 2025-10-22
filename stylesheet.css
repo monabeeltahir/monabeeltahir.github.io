@@ -140,3 +140,75 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+<!-- ======= CSS Styles (add in <style> or your main.css) ======= -->
+<style>
+  #highlights .timeline {
+    position: relative;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+
+  #highlights .timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #dee2e6;
+  }
+
+  #highlights .timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 25px;
+  }
+
+  #highlights .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+  }
+
+  #highlights .timeline-date {
+    font-weight: 600;
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+
+  #highlights .timeline-content {
+    background: #fff;
+    border: 1px solid #e9ecef;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: all 0.2s ease-in-out;
+  }
+
+  #highlights .timeline-content:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+  }
+
+  #highlights .timeline-content a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  #highlights .timeline-content a:hover {
+    text-decoration: underline;
+  }
+
+  #highlights h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+</style>
