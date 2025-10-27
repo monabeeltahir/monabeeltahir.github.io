@@ -195,3 +195,7 @@ span.highlight {
   }
 }
 
+.exp-dates {
+  white-space: nowrap;
+  font-style: italic;
+}
