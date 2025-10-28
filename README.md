@@ -32,4 +32,5 @@ The design is adapted from [Jon Barron’s academic website](https://jonbarron.i
 └── README.md # This file
 
 © 2025 Muhammad Nabeel Tahir – Greater New York City Area, United States of America  
+
 Design and source code adapted from Jon Barron’s website.
